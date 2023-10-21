@@ -11,6 +11,8 @@ class UserController extends Controller
     public function index() {
 
         $users = DB::table('users')->get();
-        return $users;
+        //return $users;
+
+        return response()->json(["Dados" => $users], 200);
     }
 }

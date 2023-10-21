@@ -113,7 +113,9 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `country`, `age`, `created_at`, `updated_at`) VALUES
 (1, 'Sidnei Santiago', 'sidnei@email.com', 'admin123', 'Brasil', 26, NULL, NULL),
-(2, 'Mike', 'mike@email.com', 'admin123', 'Brasil', 3, NULL, NULL);
+(2, 'Mike', 'mike@email.com', 'admin123', 'Brasil', 3, NULL, NULL),
+(3, 'Xena', 'xena@email.com', 'admin123', 'Brasil', 12, NULL, NULL),
+(4, 'Jhon', 'jhon@email.com', 'admin123', 'USA', 32, NULL, NULL);
 
 --
 -- Índices para tabelas despejadas
